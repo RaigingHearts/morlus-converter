@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.dll
+
+# Git
+.git/
+
+# Virtual environment
+venv/
+env/
+.env/
+.tox/ # tox testvenv
+
+# Editor files
+.vscode/  # VS Codeのワークスペース設定は通常含めますが、ここでは例として除外
+.idea/    # PyCharmなど他のIDEの設定
+.vscode/tasks.json
+
+# Build artifacts
+dist/     # PyInstallerの出力ディレクトリなど
+build/
+*.spec    # SPECファイルも除外したい場合
+
+# Pytest
+.pytest_cache/
+
+# application template
+
